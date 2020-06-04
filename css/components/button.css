@@ -1,0 +1,15 @@
+.button {
+	text-decoration: none;
+	background-color: #8ccbbe;
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	font-size: 20px;
+	transition: 0.3s;
+	padding: 10px 15px;
+	border-radius: 4px;
+	padding: 20px;
+
+}
+.button:hover {
+opacity: 0.8;
+}

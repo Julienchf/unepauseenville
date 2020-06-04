@@ -1,0 +1,58 @@
+.realisations{
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	width: 25%;
+}
+
+#ubisoft{
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/real1.jpg");
+}
+
+#beneteau{
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/real2.jpg");
+}
+
+#century21{
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/real3.jpg");
+}
+
+#cosmopolitan{
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/real4.jpg");
+}
+#linstant{
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/real5.jpg");
+}
+#saikouk{
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/real6.jpg");
+}
+#aven{
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/real7.jpg");
+}
+#street{
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/real8.jpg");
+}
+
+.realisations .content{
+display: none;
+transition: 0.3s;
+text-align: center;
+}
+
+.realisations p{
+color: white;
+line-height: 1.5;
+}
+
+.realisations:hover .content{
+	display: block;
+}
+
+.realisations h6{
+	font-size: 20px;
+	color: white;
+}
+
+.realisations p{
+	background-color: transparent;
+}

@@ -1,0 +1,25 @@
+.banner {
+  	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%), url(../../images/background.jpg);
+	background-size: cover;     
+	background-position: center;
+	height: 750px;
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+}
+
+.banner img {
+  width: 600px;
+
+}
+
+.banner h1 {
+  color: white;
+  font-family: 'Cabin', sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+}
